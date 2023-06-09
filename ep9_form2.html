@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h2>Job Application</h2>
+    <label for="name">Name :</label><br>
+    <input type="text" name="name" id="name">
+<br>
+<br>
+    <label for="email">Email :</label><br>
+    <input type="email" name="email" id="email">
+<br>
+<br>
+    <label for="phone">Phone :</label><br>
+    <input type="tel" name="phone" id="phone">
+
+<br>
+<br>
+    <label for="resume">Resume : </label><br>
+    <input type="file" name="resume" id="resume" value="Choose file">
+<br>
+<br>
+    <label for="exp">Experience (Years) :</label>
+    <select name="exp" id="exp">
+    <option value="exp1">1</option>
+    <option value="exp2">2</option>
+    <option value="exp3">3</option>
+    <option value="exp4">4</option>
+    </select>
+<br><br>
+    <label for="exp2">Experience (Years) :</label><br>
+    <input type="number" name="exp2" id="exp2" min="0" max="50">
+
+    <fieldset>
+    <legend>Skills :</legend>
+
+    <label for="html">HTML</label>
+    <input type="checkbox" name ="html" id="html"><br>
+    <label for="css">CSS</label>
+    <input type="checkbox" name ="css" id="css"><br>
+    <label for="js">JavaScript</label>
+    <input type="checkbox" name ="js" id="js"><br>
+    </fieldset>
+
+    <label for="high">Higher Education :</label><br>
+    <select name="high" id="high">
+    <option value="h1">High School</option>
+    <option value="h2">Clg</option>
+    </select>
+
+<br>
+<br>
+<fieldset>
+    <legend>Availability :</legend>
+<br>
+    <label for="full">Full-Time :</label>
+    <input type="radio" name ="full" id="full"> 
+<br>
+ <label for="part">Part-Time :</label>
+    <input type="radio" name ="part" id="part"> 
+<br>
+</fieldset><br><br>
+<label for="com">Additional Comments :</label>
+<textarea name="com" id="com" cols="10" rows="4"></textarea>    </form>
+
+<br><br>
+<button>Apply</button>
+    
+    
+</body>
+</html>
